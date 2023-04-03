@@ -33,7 +33,7 @@ def Input_Output():
     petal_width  = st.text_input("Enter Petal Width" , ".")
     
     result = ""
-    if st.button("Click here to Predict"):
+    if st.button("برای پیش‌بینی اینجا را کلیک کنید"):
         result = predict_iris_variety(sepal_length,sepal_width,petal_width,petal_width)
         st.balloons()     
     st.success('The output is {}'.format(result))
