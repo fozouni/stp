@@ -23,7 +23,7 @@ def predict_iris_variety(sepal_length,sepal_width,petal_length,petal_width):
     return prediction  
     
 def Input_Output():
-    st.title("Iris Variety Prediction")
+    st.title("پیش‌بینی تغییرات مختلف گیاهان")
     st.image("https://machinelearninghd.com/wp-content/uploads/2021/03/iris-dataset.png", width=600)
     
     st.markdown("You are using Streamlit...",unsafe_allow_html=True)
